@@ -14,11 +14,10 @@ h3{
 
 .navbar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #FD0A07;
-    padding-bottom: 2%;
-    padding-top: 1%;
-    padding-left: 1%;
+    padding: 2%;
 }
 
 .navbar-left {
@@ -70,11 +69,21 @@ h3{
 
 .info {
     text-align: center;
-    background-color: #FD0A07;
-    color: white;
+    background-color: white;
+    color: black;
     padding-bottom: 1%;
     padding-top: 1%;
     margin-top: -1%;
+}
+
+.info-fp {
+    background-color: red;
+}
+
+.info-text-fp {
+    background-color: red;
+    padding: 1em 3em;
+    margin: 0;
 }
 
 .info-title {
@@ -84,6 +93,15 @@ h3{
 .info-text {
     padding: 0 3em;
     text-align: left;
+    text-decoration: none;
+}
+
+.info-text-navbar{
+    text-decoration: none;
+    color: white;
+}
+
+.info-text-navbar:visited {
     text-decoration: none;
 }
 
@@ -108,7 +126,7 @@ h3{
 }
 
 .brands {
-    padding: 20px;
+    padding: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
