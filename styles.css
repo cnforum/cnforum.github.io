@@ -76,16 +76,6 @@ h3{
     margin-top: -1%;
 }
 
-.info-fp {
-    background-color: red;
-}
-
-.info-text-fp {
-    background-color: red;
-    padding: 1em 3em;
-    margin: 0;
-}
-
 .info-title {
     font-size: calc(25px + 1.5vw);
 }
